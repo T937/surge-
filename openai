@@ -1,0 +1,32 @@
+DOMAIN, cdn.auth0.com,WARP
+DOMAIN, openaiapi-site.azureedge.net,WARP
+DOMAIN-SUFFIX, identrust.com,WARP
+DOMAIN, challenges.cloudflare.com,WARP
+DOMAIN-SUFFIX, openaiapi-site.azureedge.net,WARP
+DOMAIN-SUFFIX, openaicom.imgix.net,WARP
+DOMAIN-SUFFIX, openaicomproductionae4b.blob.core.windows.net,WARP
+DOMAIN-SUFFIX, openaicom-api-bdcpf8c6d2e9atf6.z01.azurefd.net,WARP
+
+DOMAIN-SUFFIX,openai.com,WARP
+DOMAIN-SUFFIX,openai.org,WARP
+DOMAIN-SUFFIX,openai.ai,WARP
+DOMAIN-SUFFIX,beta.openai.com,WARP
+DOMAIN-SUFFIX,blog.openai.com,WARP
+
+# OpenAI IP Rule
+IP-CIDR,23.21.41.32/27,WARP,no-resolve
+IP-CIDR,23.21.68.19/32,WARP,no-resolve
+IP-CIDR,52.0.0.0/8,WARP,no-resolve
+IP-CIDR,54.0.0.0/8,WARP,no-resolve
+IP-CIDR,67.202.0.0/18,WARP,no-resolve
+IP-CIDR,70.32.80.0/20,WARP,no-resolve
+IP-CIDR,72.44.32.0/19,WARP,no-resolve
+IP-CIDR,99.84.0.0/16,WARP,no-resolve
+IP-CIDR,99.86.0.0/16,WARP,no-resolve
+IP-CIDR,143.204.0.0/16,WARP,no-resolve
+IP-CIDR,143.204.0.0/16,WARP,no-resolve
+IP-CIDR,150.214.0.0/16,WARP,no-resolve
+IP-CIDR,150.254.0.0/16,WARP,no-resolve
+IP-CIDR,174.129.0.0/16,WARP,no-resolve
+IP-CIDR,184.73.0.0/16,WARP,no-resolve
+IP-CIDR,216.137.32.0/19,WARP,no-resolve
