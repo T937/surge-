@@ -1,0 +1,7 @@
+[Rule]
+
+# DeepL
+DOMAIN-SUFFIX,deepl.com,Proxy
+DOMAIN-SUFFIX,deepl.net,Proxy
+DOMAIN-SUFFIX,deepl.io,Proxy
+DOMAIN-SUFFIX,deepl-translate.com,Proxy
