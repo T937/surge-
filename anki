@@ -1,0 +1,4 @@
+
+DOMAIN,ankiweb.net,Anki Web,force-remote-dns
+DOMAIN-SUFFIX,ankiapp.com,Anki App,force-remote-dns
+DOMAIN-SUFFIX,ankiweb.net,AnkiWeb,force-remote-dns
