@@ -1,5 +1,3 @@
-[Rule]
-
 # DeepL
 DOMAIN-SUFFIX,deepl.com,Proxy
 DOMAIN-SUFFIX,deepl.net,Proxy
