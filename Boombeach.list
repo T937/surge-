@@ -1,0 +1,9 @@
+DOMAIN,stats.gc.apple.com,Proxy
+DOMAIN,profile.gc.apple.com,Proxy
+DOMAIN,client-api.itunes.apple.com,Proxy
+DOMAIN,bag.itunes.apple.com,Proxy
+DOMAIN,inappcheck.itunes.apple.com,Proxy
+# In-game services
+DOMAIN,id.supercell.com,Proxy
+DOMAIN,gamec.boombeachgame.com,Proxy
+DOMAIN,supercell.helpshift.com,Proxy
