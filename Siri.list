@@ -1,8 +1,5 @@
 # Apple Intelligence & Siri 专用规则
-# 建议在 Surge 中新建一个策略组 [AppleIntelligence]
-# 可选择 DIRECT / PROXY / REJECT
 
-[Rule]
 # Siri & Dictation
 DOMAIN-SUFFIX,siri.apple.com
 DOMAIN-SUFFIX,guzzoni.apple.com
