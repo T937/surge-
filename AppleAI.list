@@ -6,3 +6,10 @@ DOMAIN-SUFFIX,applemusic.com
 DOMAIN-SUFFIX,facetime.com
 DOMAIN-SUFFIX,icloud-content.com
 IP-CIDR,17.0.0.0/8
+DOMAIN,gspe1-ssl.ls.apple.com
+DOMAIN,apple-relay.apple.com
+DOMAIN,cp4.cloudflare.com
+DOMAIN,apple-relay.fastly-edge.com
+DOMAIN,apple-relay.cloudflare.com
+DOMAIN-SUFFIX,smoot.apple.com
+DOMAIN,guzzoni.apple.com
