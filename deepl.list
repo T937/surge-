@@ -1,5 +1,45 @@
-# DeepL
-DOMAIN-SUFFIX,deepl.com,Proxy
-DOMAIN-SUFFIX,deepl.net,Proxy
-DOMAIN-SUFFIX,deepl.io,Proxy
-DOMAIN-SUFFIX,deepl-translate.com,Proxy
+# ============================
+# DeepL 翻译服务专用规则
+# 版本：2025-11-04
+# 建议策略：Proxy（走代理）
+# 用途：确保 DeepL 翻译、写作增强、API 调用及客户端能正常访问
+# ============================
+
+# === 官方主站与子域 ===
+DOMAIN-SUFFIX,deepl.com,DeepL
+DOMAIN-SUFFIX,deepl.io,DeepL
+DOMAIN-SUFFIX,deepl.net,DeepL
+DOMAIN-SUFFIX,deepl.ai,DeepL
+
+# === API 与开发者接口 ===
+DOMAIN-SUFFIX,api.deepl.com,DeepL
+DOMAIN-SUFFIX,api-free.deepl.com,DeepL
+DOMAIN-SUFFIX,api.deepl.io,DeepL
+DOMAIN-SUFFIX,api-free.deepl.io,DeepL
+
+# === Web 与应用相关 ===
+DOMAIN-SUFFIX,www.deepl.com,DeepL
+DOMAIN-SUFFIX,translator.deepl.com,DeepL
+DOMAIN-SUFFIX,auth.deepl.com,DeepL
+DOMAIN-SUFFIX,account.deepl.com,DeepL
+DOMAIN-SUFFIX,write.deepl.com,DeepL   # DeepL Write（写作增强）
+DOMAIN-SUFFIX,docs.deepl.com,DeepL    # 帮助文档
+
+# === CDN / 静态资源节点 ===
+DOMAIN-SUFFIX,static.deepl.com,DeepL
+DOMAIN-SUFFIX,cdn.deepl.com,DeepL
+DOMAIN-SUFFIX,deeplcdn.com,DeepL
+DOMAIN-SUFFIX,deepl-static.net,DeepL
+DOMAIN-SUFFIX,deepl-prod.com,DeepL
+
+# === 应用商店与辅助下载（部分客户端使用）===
+DOMAIN-SUFFIX,deepl-downloads-prod.com,DeepL
+DOMAIN-SUFFIX,deepl-cdn-prod.com,DeepL
+
+# === 备用或临时接口（常见镜像）===
+DOMAIN-SUFFIX,deepl.pro,DeepL
+DOMAIN-SUFFIX,deepl.tech,DeepL
+
+# === 可选：DeepL 官方 IP 段（如遇封锁可屏蔽）===
+# IP-CIDR,185.234.218.0/24,DeepL,no-resolve
+# IP-CIDR,162.159.138.0/24,DeepL,no-resolve
