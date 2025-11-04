@@ -1,38 +1,48 @@
+# ============================
 # Apple Intelligence & Siri 专用规则
+# 版本：2025-11-04
+# 用途：保障 Siri、Apple Intelligence、听写、AI 服务与隐私中继正常连接
+# 建议策略：DIRECT 或 Apple 专用策略组
+# ============================
 
-# Siri & Dictation
-DOMAIN-SUFFIX,siri.apple.com
-DOMAIN-SUFFIX,guzzoni.apple.com
-DOMAIN-SUFFIX,dictation.apple.com
-DOMAIN-SUFFIX,dictation-services.apple.com
+# === Siri & Dictation ===
+DOMAIN-SUFFIX,siri.apple.com,Apple
+DOMAIN-SUFFIX,guzzoni.apple.com,Apple
+DOMAIN-SUFFIX,dictation.apple.com,Apple
+DOMAIN-SUFFIX,dictation-services.apple.com,Apple
 
-# Apple Intelligence / ML / AI 服务
-DOMAIN-SUFFIX,ml.apple.com
-DOMAIN-SUFFIX,intelligence.apple.com
-DOMAIN-SUFFIX,ai.apple.com
-DOMAIN-SUFFIX,nlp.apple.com
+# === Apple Intelligence / ML / AI 服务 ===
+DOMAIN-SUFFIX,ml.apple.com,Apple
+DOMAIN-SUFFIX,intelligence.apple.com,Apple
+DOMAIN-SUFFIX,ai.apple.com,Apple
+DOMAIN-SUFFIX,nlp.apple.com,Apple
 
-# Siri 语音处理及相关
-DOMAIN-SUFFIX,speech.apple.com
-DOMAIN-SUFFIX,voice.apple.com
-DOMAIN-SUFFIX,assistant.apple.com
+# === Siri 语音处理及相关 ===
+DOMAIN-SUFFIX,speech.apple.com,Apple
+DOMAIN-SUFFIX,voice.apple.com,Apple
+DOMAIN-SUFFIX,assistant.apple.com,Apple
 
-# 其他可能涉及的子服务
-DOMAIN-SUFFIX,data.apple.com
-DOMAIN-SUFFIX,analytics.apple.com
-DOMAIN-SUFFIX,knowledge.apple.com
-DOMAIN-SUFFIX,apple.com
-DOMAIN-SUFFIX,icloud.com
-DOMAIN-SUFFIX,itunes.com
-DOMAIN-SUFFIX,appstore.com
-DOMAIN-SUFFIX,applemusic.com
-DOMAIN-SUFFIX,facetime.com
-DOMAIN-SUFFIX,icloud-content.com
-IP-CIDR,17.0.0.0/8
-DOMAIN,gspe1-ssl.ls.apple.com
-DOMAIN,apple-relay.apple.com
-DOMAIN,cp4.cloudflare.com
-DOMAIN,apple-relay.fastly-edge.com
-DOMAIN,apple-relay.cloudflare.com
-DOMAIN-SUFFIX,smoot.apple.com
-DOMAIN,guzzoni.apple.com
+# === Apple Relay / 隐私中继服务 ===
+DOMAIN-SUFFIX,apple-relay.apple.com,Apple
+DOMAIN-SUFFIX,apple-relay.akamaized.net,Apple
+DOMAIN-SUFFIX,apple-relay.cloudflare.com,Apple
+DOMAIN-SUFFIX,apple-relay.fastly-edge.com,Apple
+DOMAIN-SUFFIX,apple-relay.mask.apple-dns.net,Apple
+DOMAIN-SUFFIX,cp4.cloudflare.com,Apple
+DOMAIN-SUFFIX,gspe1-ssl.ls.apple.com,Apple
+DOMAIN-SUFFIX,smoot.apple.com,Apple
+
+# === Apple 生态支持服务 ===
+DOMAIN-SUFFIX,data.apple.com,Apple
+DOMAIN-SUFFIX,analytics.apple.com,Apple
+DOMAIN-SUFFIX,knowledge.apple.com,Apple
+DOMAIN-SUFFIX,apple.com,Apple
+DOMAIN-SUFFIX,icloud.com,Apple
+DOMAIN-SUFFIX,itunes.com,Apple
+DOMAIN-SUFFIX,appstore.com,Apple
+DOMAIN-SUFFIX,applemusic.com,Apple
+DOMAIN-SUFFIX,facetime.com,Apple
+DOMAIN-SUFFIX,icloud-content.com,Apple
+
+# === Apple 官方 IP 段 ===
+IP-CIDR,17.0.0.0/8,Apple,no-resolve
