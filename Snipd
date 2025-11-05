@@ -1,0 +1,11 @@
+# === Snipd 专用规则 ===
+# 用途：保证 Snipd 应用访问其服务器、API 与同步服务时走指定策略
+# 建议策略组：Podcast 或 Proxy 或 DIRECT
+
+DOMAIN-SUFFIX,snipd.com,Podcast
+DOMAIN-SUFFIX,open.snipd.com,Podcast
+DOMAIN-SUFFIX,help.snipd.com,Podcast
+DOMAIN-SUFFIX,share.snipd.com,Podcast
+DOMAIN-SUFFIX,api.snipd.com,Podcast
+DOMAIN-SUFFIX,uploads.snipd.com,Podcast
+DOMAIN-SUFFIX,cdn.snipd.com,Podcast
