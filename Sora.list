@@ -29,5 +29,4 @@ IP-CIDR, 20.190.128.0/18, PROXY, no-resolve
 
 # 其他可能相关域名（监控/分析）
 DOMAIN-SUFFIX, intercom.io, DIRECT
-DOMAIN-SUFFIX, segment.io, # 匹配 Sora API 请求路径（更精准）
-URL-REGEX, ^https?://[^/]+sora[^/]+/v1/video, PROXY
+DOMAIN-SUFFIX, segment.io, DIRECT
