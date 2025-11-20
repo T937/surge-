@@ -1,0 +1,10 @@
+[RULE]
+# --- iCloud Private Relay ---
+DOMAIN,mask.icloud.com,DIRECT
+DOMAIN,mask-h2.icloud.com,DIRECT
+DOMAIN,mask-api.fe.apple-dns.net,DIRECT
+DOMAIN,mask.apple-dns.net,DIRECT
+DOMAIN,mask-t.apple-dns.net,DIRECT
+DOMAIN-SUFFIX,apple-dns.net,DIRECT
+DOMAIN-SUFFIX,icloud.com,DIRECT
+DOMAIN-SUFFIX,apple.com,DIRECT
