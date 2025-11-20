@@ -26,7 +26,3 @@ IP-CIDR, 104.18.32.0/24, PROXY, no-resolve
 IP-CIDR, 104.18.33.0/24, PROXY, no-resolve
 IP-CIDR, 13.107.42.0/24, PROXY, no-resolve
 IP-CIDR, 20.190.128.0/18, PROXY, no-resolve
-
-# 其他可能相关域名（监控/分析）
-DOMAIN-SUFFIX, intercom.io, DIRECT
-DOMAIN-SUFFIX, segment.io, DIRECT
