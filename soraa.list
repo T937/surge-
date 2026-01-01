@@ -1,0 +1,24 @@
+# ===== OpenAI / Sora =====
+
+# Sora 主站
+DOMAIN,sora.openai.com
+
+# OpenAI 核心 API
+DOMAIN,api.openai.com
+DOMAIN,chat.openai.com
+
+# OpenAI 资源与鉴权
+DOMAIN,auth.openai.com
+DOMAIN,platform.openai.com
+
+# 静态资源与 CDN（Sora 页面/视频常用）
+DOMAIN-SUFFIX,openai.com
+DOMAIN-SUFFIX,oaistatic.com
+DOMAIN-SUFFIX,oaiusercontent.com
+
+# 视频与大文件分发（Sora 生成/预览）
+DOMAIN-SUFFIX,blob.core.windows.net
+DOMAIN-SUFFIX,azureedge.net
+
+# WebSocket / 实时通信（可能用于生成进度）
+DOMAIN-SUFFIX,openai.azure.com
