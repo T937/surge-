@@ -1,7 +1,0 @@
-IP-CIDR6,240e::/18,no-resolve
-IP-CIDR,183.0.0.0/8,no-resolve
-IP-CIDR,125.88.0.0/12,no-resolve
-IP-CIDR,222.184.0.0/13,no-resolve
-IP-CIDR,114.230.136.0/22,no-resolve
-DOMAIN,szextshort.weixin.qq.com
-DOMAIN,szminorshort.weixin.qq.com
