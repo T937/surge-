@@ -1,0 +1,70 @@
+IP-CIDR6,240e::/18,no-resolve
+IP-CIDR,183.0.0.0/8,no-resolve
+IP-CIDR,125.88.0.0/12,no-resolve
+IP-CIDR,222.184.0.0/13,no-resolve
+IP-CIDR,114.230.136.0/22,no-resolve
+DOMAIN,szextshort.weixin.qq.com
+DOMAIN,szminorshort.weixin.qq.com
+# =========================
+# WeChat / Tencent Weixin
+# =========================
+
+# ---------- 核心域名 ----------
+DOMAIN,weixin.qq.com
+DOMAIN,wx.qq.com
+DOMAIN,szshort.weixin.qq.com
+DOMAIN,short.weixin.qq.com
+DOMAIN,long.weixin.qq.com
+DOMAIN-SUFFIX,weixin.qq.com
+DOMAIN-SUFFIX,wx.qq.com
+
+# ---------- 登录 / 鉴权 ----------
+DOMAIN,login.weixin.qq.com
+DOMAIN,checkresupdate.weixin.qq.com
+DOMAIN,mp.weixin.qq.com
+
+# ---------- 小程序 / 公众号 ----------
+DOMAIN,servicewechat.com
+DOMAIN-SUFFIX,servicewechat.com
+DOMAIN,developers.weixin.qq.com
+
+# ---------- 微信支付 ----------
+DOMAIN,pay.weixin.qq.com
+DOMAIN-SUFFIX,tenpay.com
+DOMAIN-SUFFIX,wx.tenpay.com
+
+# ---------- CDN / 静态资源 ----------
+DOMAIN-SUFFIX,wxcdn.qq.com
+DOMAIN-SUFFIX,qpic.cn
+DOMAIN-SUFFIX,qlogo.cn
+DOMAIN-SUFFIX,gtimg.com
+
+# ---------- 图片 / 视频 / 语音 ----------
+DOMAIN-SUFFIX,wechat.com
+DOMAIN-SUFFIX,wechatpay.com
+
+# ---------- 推送 / 长连接 ----------
+DOMAIN,szextshort.weixin.qq.com
+DOMAIN,szextlong.weixin.qq.com
+
+# ---------- 国际版 WeChat ----------
+DOMAIN-SUFFIX,wechatapp.com
+DOMAIN-SUFFIX,wechatapp.net
+
+# ---------- 企业微信（可选） ----------
+DOMAIN-SUFFIX,wecom.cn
+DOMAIN-SUFFIX,work.weixin.qq.com
+
+# ---------- IP 段（关键，保证语音视频稳定） ----------
+IP-CIDR,101.226.62.0/23,no-resolve
+IP-CIDR,101.226.103.0/25,no-resolve
+IP-CIDR,101.226.128.0/18,no-resolve
+IP-CIDR,103.7.28.0/22,no-resolve
+IP-CIDR,103.7.30.0/24,no-resolve
+IP-CIDR,103.7.31.0/24,no-resolve
+IP-CIDR,112.90.0.0/16,no-resolve
+IP-CIDR,113.96.0.0/13,no-resolve
+IP-CIDR,114.240.0.0/12,no-resolve
+IP-CIDR,183.3.0.0/16,no-resolve
+IP-CIDR,183.36.0.0/16,no-resolve
+IP-CIDR,203.205.128.0/17,no-resolve
