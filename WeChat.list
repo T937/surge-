@@ -28,7 +28,6 @@ DOMAIN-SUFFIX,work.weixin.qq.com,DIRECT
 IP-CIDR,101.32.0.0/16,DIRECT,no-resolve
 IP-CIDR,129.28.0.0/16,DIRECT,no-resolve
 IP-CIDR,162.62.0.0/16,DIRECT,no-resolve
-
 IP-CIDR,101.226.62.0/23,DIRECT,no-resolve
 IP-CIDR,101.226.103.0/25,DIRECT,no-resolve
 IP-CIDR,101.226.128.0/18,DIRECT,no-resolve
@@ -44,6 +43,5 @@ IP-CIDR,183.0.0.0/8,DIRECT,no-resolve
 IP-CIDR,183.3.0.0/16,DIRECT,no-resolve
 IP-CIDR,183.36.0.0/16,DIRECT,no-resolve
 IP-CIDR,203.205.128.0/17,DIRECT,no-resolve
-
 IP-CIDR6,240e::/18,DIRECT,no-resolve
 
