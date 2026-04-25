@@ -1,3 +1,15 @@
+# WeChat 核心服务（直连）
+DOMAIN,weixin.qq.com,DIRECT
+DOMAIN,mp.weixin.qq.com,DIRECT
+DOMAIN,szshort.weixin.qq.com,DIRECT
+DOMAIN,short.weixin.qq.com,DIRECT
+DOMAIN,long.weixin.qq.com,DIRECT
+DOMAIN,szextshort.weixin.qq.com,DIRECT
+DOMAIN,szextlong.weixin.qq.com,DIRECT
+DOMAIN-SUFFIX,wechat.com,DIRECT
+DOMAIN-SUFFIX,weixin.com,DIRECT
+DOMAIN-SUFFIX,qq.com,DIRECT
+DOMAIN-SUFFIX,tencent.com,DIRECT
 # WeChat 登录 / 安全（最高优先级直连）
 DOMAIN,login.weixin.qq.com,DIRECT
 DOMAIN,checkresupdate.weixin.qq.com,DIRECT
