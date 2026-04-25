@@ -1,0 +1,14 @@
+# WeChat 支付（单独分组）
+########################
+# 👉 可以改成 PAY 或 DIRECT，看你策略
+DOMAIN-SUFFIX,tenpay.com,DIRECT
+DOMAIN-SUFFIX,wx.tenpay.com,DIRECT
+DOMAIN-SUFFIX,api.mch.weixin.qq.com,DIRECT
+DOMAIN-SUFFIX,api2.mch.weixin.qq.com,DIRECT
+DOMAIN-SUFFIX,api.weixin.qq.com,DIRECT
+DOMAIN-KEYWORD,tenpay,DIRECT
+DOMAIN-KEYWORD,wechatpay,DIRECT
+# 兜底规则
+########################
+DOMAIN-KEYWORD,wechat,DIRECT
+DOMAIN-KEYWORD,weixin,DIRECT
