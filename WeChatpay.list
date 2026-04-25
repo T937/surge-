@@ -1,14 +1,18 @@
-# WeChat 支付（单独分组）
-########################
-# 👉 可以改成 PAY 或 DIRECT，看你策略
+# WeChat 登录 / 安全（最高优先级直连）
+DOMAIN,login.weixin.qq.com,DIRECT
+DOMAIN,checkresupdate.weixin.qq.com,DIRECT
+DOMAIN,security.wechat.com,DIRECT
+DOMAIN,help.wechat.com,DIRECT
+DOMAIN,wx.qq.com,DIRECT
+# WeChat 支付（强制直连）
 DOMAIN-SUFFIX,tenpay.com,DIRECT
 DOMAIN-SUFFIX,wx.tenpay.com,DIRECT
-DOMAIN-SUFFIX,api.mch.weixin.qq.com,DIRECT
-DOMAIN-SUFFIX,api2.mch.weixin.qq.com,DIRECT
-DOMAIN-SUFFIX,api.weixin.qq.com,DIRECT
+DOMAIN,pay.weixin.qq.com,DIRECT
+DOMAIN,api.mch.weixin.qq.com,DIRECT
+DOMAIN,api2.mch.weixin.qq.com,DIRECT
+DOMAIN,api.weixin.qq.com,DIRECT
 DOMAIN-KEYWORD,tenpay,DIRECT
 DOMAIN-KEYWORD,wechatpay,DIRECT
 # 兜底规则
-########################
 DOMAIN-KEYWORD,wechat,DIRECT
 DOMAIN-KEYWORD,weixin,DIRECT
