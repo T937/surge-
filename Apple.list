@@ -1,6 +1,6 @@
-Apple Intelligence & Siri & Image Playground（图乐园）专用规则
-终版（iOS 27 / Siri AI / Apple Intelligence）
-用途：保障 Siri、Apple Intelligence、听写、AI 服务、图像生成及 Private Cloud Compute 正常连接
+#Apple Intelligence & Siri & Image Playground（图乐园）专用规则
+#终版（iOS 27 / Siri AI / Apple Intelligence）
+#用途：保障 Siri、Apple Intelligence、听写、AI 服务、图像生成及 Private Cloud Compute 正常连接
 = Siri & Dictation =
 DOMAIN-SUFFIX,siri.apple.com,Apple 
 DOMAIN-SUFFIX,guzzoni.apple.com,Apple 
