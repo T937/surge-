@@ -1,56 +1,62 @@
-# ============================
-# Apple Intelligence & Siri & Image Playground（图乐园）专用规则
-# 版本：2025-11-04
-# 用途：保障 Siri、Apple Intelligence、听写、AI 服务、图像生成及隐私中继正常连接
-# 建议策略：
-#   - Apple：直连（DIRECT）或 Apple 专用策略组
-#   - AppleAI：可与 Apple 共用策略，也可单独设定为 Proxy 或 DIRECT
-# ============================
-
-# === Siri & Dictation ===
-DOMAIN-SUFFIX,siri.apple.com,Apple
-DOMAIN-SUFFIX,guzzoni.apple.com,Apple
-DOMAIN-SUFFIX,dictation.apple.com,Apple
+Apple Intelligence & Siri & Image Playground（图乐园）专用规则
+终版（iOS 27 / Siri AI / Apple Intelligence）
+用途：保障 Siri、Apple Intelligence、听写、AI 服务、图像生成及 Private Cloud Compute 正常连接
+= Siri & Dictation =
+DOMAIN-SUFFIX,siri.apple.com,Apple 
+DOMAIN-SUFFIX,guzzoni.apple.com,Apple 
+DOMAIN-SUFFIX,dictation.apple.com,Apple 
 DOMAIN-SUFFIX,dictation-services.apple.com,Apple
 
-# === Apple Intelligence / ML / AI 服务 ===
-DOMAIN-SUFFIX,ml.apple.com,AppleAI
-DOMAIN-SUFFIX,intelligence.apple.com,AppleAI
-DOMAIN-SUFFIX,ai.apple.com,AppleAI
-DOMAIN-SUFFIX,nlp.apple.com,AppleAI
-DOMAIN-SUFFIX,apple-intelligence.apple.com,AppleAI
+= Siri Legacy / Siri AI 补充 =
+DOMAIN-SUFFIX,guzzoni.smoot.apple.com,Apple 
+DOMAIN-SUFFIX,swallow.apple.com,Apple 
+DOMAIN-SUFFIX,dejavu.apple.com,Apple 
+DOMAIN-SUFFIX,diatryma.apple.com,Apple
 
-# === Siri 语音处理及相关 ===
-DOMAIN-SUFFIX,speech.apple.com,Apple
-DOMAIN-SUFFIX,voice.apple.com,Apple
+= Siri 语音处理及相关 =
+DOMAIN-SUFFIX,speech.apple.com,Apple 
+DOMAIN-SUFFIX,voice.apple.com,Apple 
 DOMAIN-SUFFIX,assistant.apple.com,Apple
 
-# === Apple Relay / 隐私中继服务 ===
-DOMAIN-SUFFIX,apple-relay.apple.com,Apple
-DOMAIN-SUFFIX,apple-relay.akamaized.net,Apple
-DOMAIN-SUFFIX,apple-relay.cloudflare.com,Apple
-DOMAIN-SUFFIX,apple-relay.fastly-edge.com,Apple
-DOMAIN-SUFFIX,apple-relay.mask.apple-dns.net,Apple
-DOMAIN-SUFFIX,cp4.cloudflare.com,Apple
-DOMAIN-SUFFIX,gspe1-ssl.ls.apple.com,Apple
+= Apple Intelligence / ML / AI 服务 =
+DOMAIN-SUFFIX,ml.apple.com,Apple
+DOMAIN-SUFFIX,intelligence.apple.com,Apple
+DOMAIN-SUFFIX,ai.apple.com,Apple
+DOMAIN-SUFFIX,nlp.apple.com,Apple
+DOMAIN-SUFFIX,apple-intelligence.apple.com,Apple
+
+= Siri Search / Spotlight / Personal Context =
 DOMAIN-SUFFIX,smoot.apple.com,Apple
 
-# === Image Playground（图乐园） ===
-DOMAIN-SUFFIX,image-playground.apple.com,AppleAI
-DOMAIN-SUFFIX,playground.apple.com,AppleAI
-DOMAIN-SUFFIX,genmoji.apple.com,AppleAI
+= Apple Relay / Private Cloud Compute（PCC）=
+DOMAIN-SUFFIX,apple-relay.apple.com,Apple 
+DOMAIN-SUFFIX,apple-relay.akamaized.net,Apple 
+DOMAIN-SUFFIX,apple-relay.cloudflare.com,Apple 
+DOMAIN-SUFFIX,apple-relay.fastly-edge.com,Apple 
+DOMAIN-SUFFIX,apple-relay.mask.apple-dns.net,Apple
 
-# === Apple 生态支持服务 ===
-DOMAIN-SUFFIX,data.apple.com,Apple
-DOMAIN-SUFFIX,analytics.apple.com,Apple
+DOMAIN,cp4.cloudflare.com,Apple 
+DOMAIN,gspe1-ssl.ls.apple.com,Apple
+
+= Image Playground（图乐园）=
+DOMAIN-SUFFIX,image-playground.apple.com,Apple
+DOMAIN-SUFFIX,playground.apple.com,Apple
+DOMAIN-SUFFIX,genmoji.apple.com,Apple
+
+= Apple Intelligence 扩展服务 =
 DOMAIN-SUFFIX,knowledge.apple.com,Apple
-DOMAIN-SUFFIX,apple.com,Apple
-DOMAIN-SUFFIX,icloud.com,Apple
-DOMAIN-SUFFIX,itunes.com,Apple
-DOMAIN-SUFFIX,appstore.com,Apple
-DOMAIN-SUFFIX,applemusic.com,Apple
-DOMAIN-SUFFIX,facetime.com,Apple
+
+= Apple 生态支持服务 =
+DOMAIN-SUFFIX,data.apple.com,Apple 
+DOMAIN-SUFFIX,analytics.apple.com,Apple
+
+DOMAIN-SUFFIX,apple.com,Apple 
+DOMAIN-SUFFIX,icloud.com,Apple 
+DOMAIN-SUFFIX,itunes.com,Apple 
+DOMAIN-SUFFIX,appstore.com,Apple 
+DOMAIN-SUFFIX,applemusic.com,Apple 
+DOMAIN-SUFFIX,facetime.com,Apple 
 DOMAIN-SUFFIX,icloud-content.com,Apple
 
-# === Apple 官方 IP 段 ===
+= Apple 官方网络 =
 IP-CIDR,17.0.0.0/8,Apple,no-resolve
