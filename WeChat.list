@@ -1,7 +1,7 @@
 #WeChat Ultimate Rules
 #For Surge 6+
 #Updated: 2026
-= WeChat Core =
+# WeChat Core =
 
 DOMAIN-SUFFIX,wechat.com,WeChat 
 DOMAIN-SUFFIX,wechatapp.com,WeChat 
@@ -16,50 +16,50 @@ DOMAIN-SUFFIX,servicewechat.com,WeChat
 DOMAIN-SUFFIX,wx.qq.com,WeChat 
 DOMAIN-SUFFIX,wxs.qq.com,WeChat
 
-= WeChat Pay =
+# WeChat Pay =
 
 DOMAIN,wx.tenpay.com,WeChat 
 DOMAIN-SUFFIX,tenpay.com,WeChat
 
-= Mini Program =
+# Mini Program =
 
 DOMAIN,mp.weixin.qq.com,WeChat 
 DOMAIN-SUFFIX,servicewechat.com,WeChat
 
-= WeCom =
+# WeCom =
 
 DOMAIN-SUFFIX,wecom.work,WeChat 
 DOMAIN-SUFFIX,work.weixin.qq.com,WeChat
 
-= WeChat CDN =
+# WeChat CDN =
 
 DOMAIN-SUFFIX,qlogo.cn,WeChat 
 DOMAIN-SUFFIX,qpic.cn,WeChat 
 DOMAIN-SUFFIX,wx.gtimg.com,WeChat 
 DOMAIN-SUFFIX,gtimg.com,WeChat
 
-= Video Channel =
+# Video Channel =
 
 DOMAIN-SUFFIX,vweixin.tc.qq.com,WeChat 
 DOMAIN-SUFFIX,vweixinthumb.tc.qq.com,WeChat 
 DOMAIN,soup.v.qq.com,WeChat
 
-= Login =
+# Login =
 
 DOMAIN,apd-pcdnwxlogin.teg.tencent-cloud.net,WeChat
 
-= Network Diagnose =
+# Network Diagnose =
 
 DOMAIN,btrace.qq.com,WeChat 
 DOMAIN,wup.imtt.qq.com,WeChat
 
-= Tencent Cloud =
+# Tencent Cloud =
 
 DOMAIN-SUFFIX,myqcloud.com,WeChat 
 DOMAIN-SUFFIX,tencent-cloud.net,WeChat 
 DOMAIN-SUFFIX,iot-tencent.com,WeChat
 
-= Location / Map =
+# Location / Map =
 
 DOMAIN-SUFFIX,map.qq.com,WeChat 
 DOMAIN-SUFFIX,lbs.map.qq.com,WeChat 
@@ -71,25 +71,25 @@ DOMAIN-SUFFIX,indoorroad.map.qq.com,WeChat
 DOMAIN-SUFFIX,nlp.map.qq.com,WeChat 
 DOMAIN-SUFFIX,ue.indoorloc.map.qq.com,WeChat
 
-= Security =
+# Security =
 
 DOMAIN,weixin110.qq.com,WeChat
 
-= Download =
+# Download =
 
 DOMAIN,dldir1.qq.com,WeChat
 
-= IPv6 (WeChat) =
+# IPv6 (WeChat) =
 
-China Unicom
+#China Unicom
 IP-CIDR6,2408:80F1:21::/48,no-resolve 
 IP-CIDR6,2408:80F1:31::/48,no-resolve
 
-China Mobile
+#China Mobile
 IP-CIDR6,2409:8C1E:8FD0::/56,no-resolve 
 IP-CIDR6,2409:8C54:5100::/56,no-resolve
 
-China Telecom
+#China Telecom
 IP-CIDR6,240E:E1:A800::/46,no-resolve 
 IP-CIDR6,240E:E1:A900::/48,no-resolve 
 IP-CIDR6,240E:E1:AA00::/48,no-resolve
