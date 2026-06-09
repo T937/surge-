@@ -1,8 +1,6 @@
 #WeChat Ultimate Rules
 #For Surge 6+
 #Updated: 2026
-# WeChat Core =
-
 DOMAIN-SUFFIX,wechat.com,WeChat 
 DOMAIN-SUFFIX,wechatapp.com,WeChat 
 DOMAIN-SUFFIX,wechatlegal.net,WeChat
