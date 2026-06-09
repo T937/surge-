@@ -1,47 +1,95 @@
-# CDN / 图片 / 视频（走代理）
-########################
-DOMAIN-SUFFIX,qpic.cn,Proxy
-DOMAIN-SUFFIX,qlogo.cn,Proxy
-DOMAIN-SUFFIX,wx.qlogo.cn,Proxy
-DOMAIN-SUFFIX,wxcdn.qq.com,Proxy
-DOMAIN-SUFFIX,gtimg.com,Proxy
-DOMAIN-SUFFIX,wechatimg.com,Proxy
+WeChat Ultimate Rules
+For Surge 6+
+Updated: 2026
+= WeChat Core =
 
-########################
-# 小程序 / H5 / 外链（走代理）
-########################
-DOMAIN-SUFFIX,servicewechat.com,Proxy
-DOMAIN,developers.weixin.qq.com,Proxy
-DOMAIN-KEYWORD,wechatapp,Proxy
-DOMAIN-SUFFIX,wechatapp.com,Proxy
-DOMAIN-SUFFIX,wechatapp.net,Proxy
+DOMAIN-SUFFIX,wechat.com,WeChat 
+DOMAIN-SUFFIX,wechatapp.com,WeChat 
+DOMAIN-SUFFIX,wechatlegal.net,WeChat
 
-########################
-# 企业微信（可选）
-########################
-DOMAIN-SUFFIX,wecom.cn,DIRECT
-DOMAIN-SUFFIX,work.weixin.qq.com,DIRECT
+DOMAIN-SUFFIX,weixin.com,WeChat 
+DOMAIN-SUFFIX,weixin.qq.com,WeChat 
+DOMAIN-SUFFIX,wechatos.net,WeChat
 
-########################
-# IP 段（语音 / 视频 / 消息稳定）
-########################
-IP-CIDR,101.32.0.0/16,DIRECT,no-resolve
-IP-CIDR,129.28.0.0/16,DIRECT,no-resolve
-IP-CIDR,162.62.0.0/16,DIRECT,no-resolve
-IP-CIDR,101.226.62.0/23,DIRECT,no-resolve
-IP-CIDR,101.226.103.0/25,DIRECT,no-resolve
-IP-CIDR,101.226.128.0/18,DIRECT,no-resolve
-IP-CIDR,103.7.28.0/22,DIRECT,no-resolve
-IP-CIDR,103.7.30.0/24,DIRECT,no-resolve
-IP-CIDR,103.7.31.0/24,DIRECT,no-resolve
-IP-CIDR,112.90.0.0/16,DIRECT,no-resolve
-IP-CIDR,113.96.0.0/13,DIRECT,no-resolve
-IP-CIDR,114.240.0.0/12,DIRECT,no-resolve
-IP-CIDR,114.230.136.0/22,DIRECT,no-resolve
-IP-CIDR,125.88.0.0/12,DIRECT,no-resolve
-IP-CIDR,183.0.0.0/8,DIRECT,no-resolve
-IP-CIDR,183.3.0.0/16,DIRECT,no-resolve
-IP-CIDR,183.36.0.0/16,DIRECT,no-resolve
-IP-CIDR,203.205.128.0/17,DIRECT,no-resolve
-IP-CIDR6,240e::/18,DIRECT,no-resolve
+DOMAIN-SUFFIX,servicewechat.com,WeChat
 
+DOMAIN-SUFFIX,wx.qq.com,WeChat 
+DOMAIN-SUFFIX,wxs.qq.com,WeChat
+
+= WeChat Pay =
+
+DOMAIN,wx.tenpay.com,WeChat 
+DOMAIN-SUFFIX,tenpay.com,WeChat
+
+= Mini Program =
+
+DOMAIN,mp.weixin.qq.com,WeChat 
+DOMAIN-SUFFIX,servicewechat.com,WeChat
+
+= WeCom =
+
+DOMAIN-SUFFIX,wecom.work,WeChat 
+DOMAIN-SUFFIX,work.weixin.qq.com,WeChat
+
+= WeChat CDN =
+
+DOMAIN-SUFFIX,qlogo.cn,WeChat 
+DOMAIN-SUFFIX,qpic.cn,WeChat 
+DOMAIN-SUFFIX,wx.gtimg.com,WeChat 
+DOMAIN-SUFFIX,gtimg.com,WeChat
+
+= Video Channel =
+
+DOMAIN-SUFFIX,vweixin.tc.qq.com,WeChat 
+DOMAIN-SUFFIX,vweixinthumb.tc.qq.com,WeChat 
+DOMAIN,soup.v.qq.com,WeChat
+
+= Login =
+
+DOMAIN,apd-pcdnwxlogin.teg.tencent-cloud.net,WeChat
+
+= Network Diagnose =
+
+DOMAIN,btrace.qq.com,WeChat 
+DOMAIN,wup.imtt.qq.com,WeChat
+
+= Tencent Cloud =
+
+DOMAIN-SUFFIX,myqcloud.com,WeChat 
+DOMAIN-SUFFIX,tencent-cloud.net,WeChat 
+DOMAIN-SUFFIX,iot-tencent.com,WeChat
+
+= Location / Map =
+
+DOMAIN-SUFFIX,map.qq.com,WeChat 
+DOMAIN-SUFFIX,lbs.map.qq.com,WeChat 
+DOMAIN-SUFFIX,apis.map.qq.com,WeChat 
+DOMAIN-SUFFIX,rttgps.map.qq.com,WeChat 
+DOMAIN-SUFFIX,analytics.map.qq.com,WeChat 
+DOMAIN-SUFFIX,cc.map.qq.com,WeChat 
+DOMAIN-SUFFIX,indoorroad.map.qq.com,WeChat 
+DOMAIN-SUFFIX,nlp.map.qq.com,WeChat 
+DOMAIN-SUFFIX,ue.indoorloc.map.qq.com,WeChat
+
+= Security =
+
+DOMAIN,weixin110.qq.com,WeChat
+
+= Download =
+
+DOMAIN,dldir1.qq.com,WeChat
+
+= IPv6 (WeChat) =
+
+China Unicom
+IP-CIDR6,2408:80F1:21::/48,no-resolve 
+IP-CIDR6,2408:80F1:31::/48,no-resolve
+
+China Mobile
+IP-CIDR6,2409:8C1E:8FD0::/56,no-resolve 
+IP-CIDR6,2409:8C54:5100::/56,no-resolve
+
+China Telecom
+IP-CIDR6,240E:E1:A800::/46,no-resolve 
+IP-CIDR6,240E:E1:A900::/48,no-resolve 
+IP-CIDR6,240E:E1:AA00::/48,no-resolve
